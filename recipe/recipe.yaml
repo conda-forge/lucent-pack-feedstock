@@ -1,14 +1,14 @@
 context:
   name: lucent-pack
-  version: 0.1.0
+  version: 0.1.1
 
 package:
   name: ${{ name }}
   version: ${{ version }}
 
 source:
-  url: https://github.com/IsabelParedes/${{ name }}/archive/refs/tags/${{ version }}.tar.gz
-  sha256: ea2d91ff41a8f247d38be21a76be390918351911dceb5667f3cc979d37ec35fb
+  url: https://github.com/emscripten-forge/${{ name }}/archive/refs/tags/${{ version }}.tar.gz
+  sha256: 8c735276e81e7eaeebf260046c02f9ab3350e3e27b967a58560082c6a4a03e44
 
 build:
   number: 0
@@ -36,8 +36,8 @@ tests:
         - python ${{ python_min }}.*
 
 about:
-  homepage: https://github.com/IsabelParedes/lucent-pack
-  repository: https://github.com/IsabelParedes/lucent-pack
+  homepage: https://github.com/emscripten-forge/lucent-pack
+  repository: https://github.com/emscripten-forge/lucent-pack
   summary: Pack a Shiny app and a WebAssembly R environment into a static site.
   description: |
     Tool to pack a Shiny app and a WASM R environment into a static site that
