@@ -1,6 +1,6 @@
 context:
   name: lucent-pack
-  version: 0.1.0
+  version: 0.1.1
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/IsabelParedes/${{ name }}/archive/refs/tags/${{ version }}.tar.gz
-  sha256: ea2d91ff41a8f247d38be21a76be390918351911dceb5667f3cc979d37ec35fb
+  sha256: 8c735276e81e7eaeebf260046c02f9ab3350e3e27b967a58560082c6a4a03e44
 
 build:
   number: 0
